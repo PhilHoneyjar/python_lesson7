@@ -1,6 +1,3 @@
-poem = 'пара-ра-рам рам-пам-папам па-ра-па-дам'
-
-
 def check_rhythm(string_of_words):
     vowels = 'аеёиоуыэюя'
     list_of_count_vowels = \
@@ -8,4 +5,5 @@ def check_rhythm(string_of_words):
     return 'Парам пам-пам' if len(set(list_of_count_vowels)) == 1 else 'Пам парам'
 
 
+poem = 'пара-ра-рам рам-пам-папам па-ра-па-дам'
 print(check_rhythm(poem))
