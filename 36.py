@@ -1,6 +1,3 @@
-operation = lambda x, y: x * y
-
-
 def print_operation_table(operation, num_rows=7, num_columns=7):
     if operation(1, 1) == 2:
         print(1, end='\t')
@@ -12,4 +9,5 @@ def print_operation_table(operation, num_rows=7, num_columns=7):
         print()
 
 
+operation = lambda x, y: x * y
 print_operation_table(operation)
